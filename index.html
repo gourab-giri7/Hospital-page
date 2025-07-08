@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+  <!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital page by G</title>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+  </style>
+  <link rel="icon" href="assects/icon.png">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<div class="main">
+                                          <!-- nav -->
+  <div id="home" class="sticky nav flex flex-col items-center h-9 md:flex-row justify-around text-white mt-5 mb-3 ">
+    <div class="logo text-2xl font-bold"><a href="index.html">GOURAB</a></div>
+    <ul class="flex flex-row space-x-2 justify-around md:space-x-9 md:text-2xl">
+      <li class="hover:underline"><a href="#home">Home</a></li>
+      <li class="hover:underline"><a href="#about">About</a></li>
+      <li class="hover:underline"><a href="#department">Department</a></li>
+      <li class="hover:underline"><a href="#doctors">Doctors</a></li>
+      <li class="hover:underline"><a href="#contact-us">Contact Us</a></li>
+    </ul>
+  </div>
+  
+                                  <!-- hero -->
+
+  <img class="bg hero h-4/5 w-screen md:h-screen -z-10 absolute top-0 "  src="assects/hero.png"></img>
+  <div class="hero h-96 bg-contain bg-no-repeat md:h-auto text-white">
+    <div class="text p-6 md:w-7/12 flex flex-col mt-9 space-y-2 md:space-y-8 md:ml-9">
+      <h1 class="md:text-7xl font-bold text-3xl">We Provide Best Healthcare</h1>
+      <p>Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic?  veniam, vel architecto veritatis delectus repellat modi impedit sequi.</p>
+      <button class="border p-2 bg-white text-emerald-400 w-36 transition-all rounded md:ml-9 hover:bg-transparent hover:text-white hover:border-white">Read More</button>
+    </div>
+  </div>
+
+                                            <!-- Depertment -->
+  
+  <div id="department" class="depertment md:h-screen p-6 flex flex-col space-y-4 justify-center items-center bg-white md:bg-transparent pt-6 md:mt-32 md:pt-0">
+    <h1 class="text-3xl md:text-4xl">OUR DEPERTMENT</h1>
+    <p class="text-center ">Asperiores sunt consectetur impedit nulla molestiae delectus repellat laborum dolores doloremque accusantium</p>
+    <div class="cards w-full md:justify-around content-between flex flex-col md:flex-row pt-11 pb-11">
+
+                         <!-- card1 -->
+      <div class="card5 flex flex-col justify-center items-center space-y-3  md:w-80 ">
+         <div class="img_box bg-emerald-600  rounded-full p-4">
+            <img src="assects/s1.png" alt="" class=" h-14">
+          </div>
+          <h1 class="font-bold text-2xl text-center">Cardiology</h1>
+          <p class="text-center">fact that a reader will be distracted by the readable page when looking at its layout.</p>
+        </div>
+
+                            <!-- card2 -->
+      <div class="card5 flex flex-col justify-center items-center space-y-3  md:w-80  mt-9 md:mt-0">
+         <div class="img_box bg-emerald-600  rounded-full p-5">
+            <img src="assects/s2.png" alt="" class=" h-14">
+          </div>
+          <h1 class="font-bold text-2xl text-center">Diagnosis</h1>
+          <p class="text-center">fact that a reader will be distracted by the readable page when looking at its layout.</p>
+        </div>
+
+                            <!-- card3 -->
+      <div class="card5 flex flex-col justify-center items-center space-y-3  md:w-80  mt-9 md:mt-0">
+         <div class="img_box bg-emerald-600  rounded-full p-4">
+            <img src="assects/s3.png" alt="" class=" h-14">
+          </div>
+          <h1 class="font-bold text-2xl text-center">Surgery</h1>
+          <p class="text-center">fact that a reader will be distracted by the readable page when looking at its layout.</p>
+        </div>
+
+                            <!-- card4 -->
+      <div class="card5 flex flex-col justify-center items-center space-y-3  md:w-80  mt-9  md:mt-0">
+         <div class="img_box bg-emerald-600  rounded-full p-4">
+            <img src="assects/s4.png" alt="" class=" h-14">
+          </div>
+          <h1 class="font-bold text-2xl text-center">First Aid</h1>
+          <p class="text-center">fact that a reader will be distracted by the readable page when looking at its layout.</p>
+        </div>
+      </div>
+      <button class="border p-2 bg-emerald-600 text-white w-36 transition-all rounded hover:bg-transparent hover:text-emerald-600 hover:border-emerald-400">Vew All</button>
+  </div>
+
+                                                      <!-- about -->
+
+  <div id="about" class="about md:h-96  flex flex-col md:flex-row w-full justify-center p-6 space-y-7 md:space-y-0 md:space-x-7">
+    <div class="left md:w-2/5 h-full w-full">
+      <img src="assects/about-img.jpg" alt="" class="rounded-lg h-full w-full">
+    </div>
+    <div class="right md:w-2/5 h-full flex flex-col space-y-9">
+      <h1 class="text-3xl md:text-4xl">ABOUT US</h1>
+      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+        by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+         you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+      <button class="border p-2 bg-emerald-600 text-white w-36 transition-all rounded hover:bg-transparent hover:text-emerald-600 hover:border-emerald-400">
+       Read more</button>   
+    </div>
+  </div>
+                                                        <!-- Our Doctors -->
+
+  <div id="doctors" class="our_doctors md:h-screen bg-emerald-800 text-white flex flex-col space-y-6 p-9 justify-center items-center md:mt-32">
+    <h1 class="text-3xl md:text-4xl">OUR DOCTORS</h1>
+    <p class="text-center">Incilint sapiente illo quo praesentium officiis laudantium nostrum, ad adipisci cupiditate sit, quisquam aliquid. Officiis laudantium fuga ad voluptas aspernatur error fugiat quos facilis saepe quas fugit, beatae id quisquam.</p>
+    <div class="images md:h-96 flex flex-col md:flex-row md:space-x-7 md:space-y-0  space-y-4">
+                          <!-- img1 -->
+      <div class=" bg-white flex flex-col justify-between items-center space-y-4 rounded-lg">
+        <img src="assects/d1.jpg" alt="" class="h-4/6 rounded-lg">
+        <div class="h-2/6 z-30 text-black text-center">
+        <h2 class="text-xl">Elina Josh</h2>
+        <p>Doctor</p>
+        </div>
+      </div>
+                    <!-- img2 -->
+      <div class=" bg-white flex flex-col justify-between items-center space-y-4 rounded-lg">
+        <img src="assects/d2.jpg" alt="" class="h-4/6 rounded-lg">
+        <div class="h-2/6 z-30 text-black text-center ">
+        <h2 class="text-xl">Adam View</h2>
+        <p>Doctor</p>
+        </div>
+      </div>
+                      <!-- img3 -->
+      <div class=" bg-white flex flex-col justify-between items-center space-y-4 rounded-lg">
+        <img src="assects/d3.jpg" alt="" class="h-4/6 rounded-lg">
+        <div class="h-2/6 z-30 text-black text-center">
+        <h2 class="text-xl">Mia Mike</h2>
+        <p>Doctor</p>
+        </div>
+      </div>
+    </div>
+    <button class="border p-2 bg-emerald-700 text-white w-36 transition-all rounded hover:bg-transparent hover:border-emerald-600">
+       Vew All</button> 
+  </div>
+
+                                        <!-- Gert in touch -->
+
+<div id="contact-us" class="get-in-touch flex flex-col p-11 space-y-5">
+  <h1 class="text-3xl md:text-4xl">GET IN TOUCH</h1>
+  <div class="flex flex-col md:flex-row justify-around space-y-5 md:space-y-0 md:space-x-5">        <!-- main -->
+  <div class="md:w-2/4 w-full ">                  <!-- left -->
+    <form class=" flex flex-col space-y-5  justify-center items-center">
+        <div class="w-full flex flex-row justify-between items-center space-x-4">
+          <input type="text" placeholder="Your Name" class="w-2/4 h-11 bg-gray-300 placeholder-black pl-4" required>
+          <input type="text" placeholder="Phone Number" class="w-2/4 h-11 bg-gray-300 placeholder-black pl-4" required>
+        </div>
+        <input type="email" placeholder="Email" class="w-full h-11 bg-gray-300 placeholder-black pl-4" required>
+        <textarea name="" id="" placeholder="Measge" cols="20" rows="20" style="resize: none;" class="w-full h-24 bg-gray-300 placeholder-black pl-4" required ></textarea>
+        <button class="border p-2 bg-emerald-700 text-white w-full transition-all rounded hover:bg-transparent hover:text-emerald-600 hover:border-emerald-600">
+       SEND</button>
+        </form>
+    </div>
+
+    <div class="md:w-2/4 w-full">                            <!-- right -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93498.2103609514!2d87.73328156254273!3d22.095488399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02e91efd66a0d3%3A0x5dcc3ccf6e0f2293!2sCHANDIPUR%20MULTISPECIALITY%20HOSPITAL!5e1!3m2!1sen!2sin!4v1751904467042!5m2!1sen!2sin"
+       class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+                                                      <!-- footer -->
+
+    <div class="footer flex flex-col justify-around bg-emerald-800 text-white md:p-11 p-5 space-y-5 w-full">
+      <div class="top flex flex-col md:flex-row justify-evenly space-y-5 md:space-y-0 md:space-x-5">                              <!-- top -->
+
+        <div class="flex flex-col space-y-7 w-full md:w-1/4">
+          <h1 class="text-2xl font-bold">Reach at..</h1>
+            <div class="space-y-4 flex flex-col">
+                <a href="https://maps.app.goo.gl/AKttvaC1gFi9jWXU9"><i class="fa-solid fa-location-dot"></i> Location</a>
+                <a href="telto:100"><i class="fa-solid fa-phone"></i> Call - 100</a>
+                <a href="mailto:gourabgiri164@gmail.com"><i class="fa-solid fa-envelope"></i> gourabgiri164@gmail.com</a>
+                <div class="space-x-4">
+                  <i class="fa-brands fa-facebook-f hover:text-emerald-900"></i>
+                  <i class="fa-brands fa-instagram hover:text-emerald-900"></i>
+                  <i class="fa-brands fa-linkedin-in hover:text-emerald-900"></i>
+                  <i class="fa-brands fa-x-twitter hover:text-emerald-900"></i>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="flex flex-col space-y-7 w-full md:w-1/4">
+          <h1 class="text-2xl font-bold">About</h1>
+          <p>
+            Beatae provident nobis mollitia magnam voluptatum, unde dicta facilis minima veniam corporis laudantium alias tenetur eveniet illum reprehenderit fugit a delectus officiis blanditiis ea.
+          </p>
+        </div>
+
+        <div class="flex flex-col space-y-7 w-full md:w-1/4">
+          <h1 class="text-2xl font-bold">Links</h1>
+          <div><a href="#home" class=" hover:text-emerald-900">Home</a> <a href="#about" class=" hover:text-emerald-900">About</a></div>
+          <a href="#departments" class=" hover:text-emerald-900">Departments</a>
+          <div><a href="#doctors" class=" hover:text-emerald-900">Doctors</a> <a href="#contact-us" class=" hover:text-emerald-900">Contact Us</a></div>
+        </div>
+
+        <div class="flex flex-col space-y-7 w-full md:w-1/4">
+          <h1 class="text-2xl font-bold">Newsletter</h1>
+          <input type="text" placeholder="Enter Email" class="pl-5 h-11 w-4/5 rounded">
+          <button class="border p-2 bg-emerald-700 text-white w-4/5 transition-all rounded hover:bg-transparent hover:border-emerald-600">
+       Subscribe</button> 
+        </div>
+
+      </div>
+
+      <div class="flex flex-col justify-center items-center text-xl ">                            <!-- bottom -->
+        <p>© 2025 All Rights Reserved By Gourab</p>
+      </div>
+    </div>
+</div>
+</body>
+</html>
